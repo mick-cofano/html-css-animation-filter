@@ -67,3 +67,20 @@
     width: 60px;
     height: 20px;
 }
+
+
+/* ----- Inizio Esercizio ----- */
+
+/* ES.1 */
+.ex-1-square:hover {
+  background-color: red;
+}
+
+.ex-1-square {
+  transition: 3s;
+}
+/* ES.1 */
+
+/* ES.2 */
+
+/* ES.2 */
