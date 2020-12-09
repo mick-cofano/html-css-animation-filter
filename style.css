@@ -110,3 +110,19 @@
   transition: 2s;
 }
 /* ES.4 */
+
+/* ES.5 */
+.ex-5-square:hover {
+  width: 80px;
+  height: 80px;
+}
+
+.ex-5-square:active {
+  width: 30px;
+  height: 30px;
+}
+
+.ex-5-square {
+  transition: 1s;
+}
+/* ES.5 */
