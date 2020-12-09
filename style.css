@@ -192,3 +192,37 @@
   }
 }
 /* ES.11 */
+
+/* ES.12 */
+.ex-12-button:hover .ex-12-top-white {
+  animation: top-moving 3s linear;
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+  animation: bottom-moving 3s linear;
+}
+
+@keyframes top-moving {
+  0% {
+    left: 10%;
+  }
+  50% {
+    left: 60%;
+  }
+  100% {
+    left: 10%;
+  }
+}
+
+@keyframes bottom-moving {
+  0% {
+    right: 10%;
+  }
+  50% {
+    right: 60%;
+  }
+  100% {
+    right: 10%;
+  }
+}
+/* ES.12 */
