@@ -165,3 +165,15 @@
   transition: 3s;
 }
 /* ES.9 */
+
+/* ES.10 */
+.ex-10-icon {
+  animation: caricamento 2s linear infinite;
+}
+
+@keyframes caricamento {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+/* ES.10 */
