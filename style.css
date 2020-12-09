@@ -142,3 +142,14 @@
   transition: 2s;
 }
 /* ES.7 */
+
+/* ES.8 */
+.ex-8-img:hover {
+  filter: opacity(50%) brightness(2);
+  border-radius: 20%;
+}
+
+.ex-8-img {
+  transition: 3s;
+}
+/* ES.8 */
