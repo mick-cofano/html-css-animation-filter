@@ -172,8 +172,23 @@
 }
 
 @keyframes caricamento {
-    0% {
-        transform: rotate(1turn);
-    }
+  0% {
+    transform: rotate(1turn);
+  }
 }
 /* ES.10 */
+
+/* ES.11 */
+.ex-11-icon:hover {
+  animation: caricamento-not-full 3s linear;
+}
+
+@keyframes caricamento-not-full {
+  0% {
+    transform: rotate(0);
+  }
+  75% {
+    transform: rotate(300deg);
+  }
+}
+/* ES.11 */
