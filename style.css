@@ -82,5 +82,15 @@
 /* ES.1 */
 
 /* ES.2 */
+.ex-2-square {
+  transition: 1s;
+}
 
+.ex-2-square:active {
+  width: 1000px;
+}
 /* ES.2 */
+
+/* ES.3 */
+
+/* ES.3 */
